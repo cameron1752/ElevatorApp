@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="elevatorCall" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="elevatorStop" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="elevatorStatus" min="-2" pref="106" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jProgressBar1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="person2Call" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p2NextFloor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p2GO" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p2Status" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="person1Call" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p1NextFloor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p1GO" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p1Status" min="-2" pref="176" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="person3Call" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p3NextFloor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p3GO" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p3Status" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="person4Call" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p4NextFloor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p4GO" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p4Status" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="person5Call" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p5NextFloor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p5GO" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="p5Status" min="-2" pref="176" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                      <Component id="warningLabel" min="-2" pref="315" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="103" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Component id="warningLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="person1Call" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p1NextFloor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p1GO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p1Status" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="person2Call" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p2NextFloor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p2GO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p2Status" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="person3Call" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p3NextFloor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p3GO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p3Status" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="person4Call" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p4NextFloor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p4GO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p4Status" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="person5Call" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p5NextFloor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p5GO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="p5Status" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="47" max="32767" attributes="0"/>
+              <Component id="jProgressBar1" min="-2" pref="53" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="elevatorCall" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="elevatorStop" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="elevatorStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="elevatorCall">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Call Elevator"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elevatorCallActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="person1Call">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Person1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person1CallActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="person2Call">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Person2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person2CallActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="person3Call">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Person3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person3CallActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="person4Call">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Person4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person4CallActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="person5Call">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Person5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person5CallActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1NextFloor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NextFloor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2NextFloor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NextFloor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3NextFloor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NextFloor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4NextFloor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NextFloor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5NextFloor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NextFloor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="p1GO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p1GOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="p2GO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p2GOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="p3GO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p3GOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="p4GO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p4GOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="p5GO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p5GOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="elevatorStop">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stop Elevator"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="elevatorStopActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1Status">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2Status">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p3Status">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p4Status">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p5Status">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="elevatorStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Elevator Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar1">
+      <Properties>
+        <Property name="maximum" type="int" value="11"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="warningLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="  "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

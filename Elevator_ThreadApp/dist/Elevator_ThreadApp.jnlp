@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Elevator_ThreadApp.jnlp">
+  <information>
+    <title>Elevator_ThreadApp</title>
+    <vendor>cammy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Elevator_ThreadApp.jar" size="16854" download="eager" />
+  </resources>
+  <application-desc main-class="ElevatorFE"  name="Elevator_ThreadApp" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
